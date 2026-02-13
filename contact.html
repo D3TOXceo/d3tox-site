@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti – D3TOX</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>D3TOX</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Chi&nbsp;Siamo</a>
+      <a href="services.html">Servizi</a>
+      <a href="contact.html">Contatti</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <div class="container">
+      <h2>Contattaci</h2>
+      <div id="contact-alert"></div>
+      <form id="contact-form">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="messaggio">Messaggio</label>
+        <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+        <button type="submit">Invia</button>
+      </form>
+    </div>
+  </body>
+</html>

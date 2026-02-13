@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servizi – D3TOX</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body onload="loadServices()">
+    <header>
+      <h1>D3TOX</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Chi&nbsp;Siamo</a>
+      <a href="services.html">Servizi</a>
+      <a href="contact.html">Contatti</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <div class="container">
+      <h2>I nostri servizi</h2>
+      <div id="services-list" class="services-list">
+        <!-- Popolato dinamicamente -->
+      </div>
+    </div>
+  </body>
+</html>

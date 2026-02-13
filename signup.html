@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrati – D3TOX</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>D3TOX</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Chi&nbsp;Siamo</a>
+      <a href="services.html">Servizi</a>
+      <a href="contact.html">Contatti</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <div class="container">
+      <h2>Registrati</h2>
+      <div id="signup-alert"></div>
+      <form id="signup-form">
+        <label for="signup-nome">Nome</label>
+        <input type="text" id="signup-nome" name="nome" required />
+        <label for="signup-cognome">Cognome</label>
+        <input type="text" id="signup-cognome" name="cognome" required />
+        <label for="signup-email">Email</label>
+        <input type="email" id="signup-email" name="email" required />
+        <label for="signup-password">Password</label>
+        <input type="password" id="signup-password" name="password" required />
+        <button type="submit">Registrati</button>
+      </form>
+    </div>
+  </body>
+</html>
