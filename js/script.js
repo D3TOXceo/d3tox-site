@@ -2,8 +2,9 @@
 
 // Inserisci qui le variabili del tuo progetto Supabase. Queste verranno
 // sostituite nelle impostazioni di deploy su Vercel con i valori reali.
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+// Replace with your Supabase project URL and anon key.
+const SUPABASE_URL = 'https://jsihkdrplekyslmjmsaw.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpzaWhrZHJwbGVreXNsbWptc2F3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEwMTAxMjIsImV4cCI6MjA4NjU4NjEyMn0.8TQbxck0vaeel42iej8CCk98Pw22OWpXy_8-Q6jqxkc';
 
 // Crea il client Supabase se le variabili sono definite
 let supabaseClient = null;
